@@ -13,7 +13,6 @@ Patch2: netplug-1.2.9-pinit.patch.bz2
 License: GPL
 Group: System/Configuration/Networking
 Url: http://www.red-bean.com/~bos/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Conflicts: net-tools < 1.60-18mdk
