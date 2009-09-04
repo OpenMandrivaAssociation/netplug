@@ -1,6 +1,6 @@
 %define name netplug
 %define version 1.2.9
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Hotplug-style support for network cables
 Name: %{name}
