@@ -1,6 +1,6 @@
 %define name netplug
 %define version 1.2.9
-%define release %mkrel 7
+%define release %mkrel 6
 
 Summary: Hotplug-style support for network cables
 Name: %{name}
@@ -62,3 +62,32 @@ rm -rf $RPM_BUILD_ROOT
 /sbin/netplugd
 %{_mandir}/man8/*
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.2.9-6mdv2010.0
++ Revision: 430167
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.2.9-5mdv2009.0
++ Revision: 253852
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tvignaud@mandriva.com> 1.2.9-3mdv2008.1
++ Revision: 130593
+- kill re-definition of %%buildroot on Pixel's request
+- import netplug
+
+
+* Tue Jan 31 2006 Olivier Blin <oblin@mandriva.com> 1.2.9-3mdk
+- add conflict with older net-tools
+
+* Fri Jan 27 2006 Olivier Blin <oblin@mandriva.com> 1.2.9-2mdk
+- use a better URL
+- mkrel
+
+* Fri Jan 27 2006 Olivier Blin <oblin@mandriva.com> 1.2.9-1mdk
+- initial release (splitted out of the net-tools package)
