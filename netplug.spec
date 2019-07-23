@@ -5,7 +5,7 @@
 Summary: Hotplug-style support for network cables
 Name: %{name}
 Version: %{version}
-Release: %{release}
+Release:	1
 Source0: http://www.red-bean.com/~bos/%{name}/%{name}-%{version}.tar.bz2
 Patch0: netplug-1.2.9-execshield.patch.bz2
 Patch1: netplug-1.2.9-bitkeeper.patch.bz2
