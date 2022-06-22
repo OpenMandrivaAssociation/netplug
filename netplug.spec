@@ -1,11 +1,11 @@
 %define name netplug
 %define version 1.2.9
-%define release 7
+%define release 8
 
 Summary: Hotplug-style support for network cables
 Name: %{name}
 Version: %{version}
-Release:	1
+Release:	2
 Source0: http://www.red-bean.com/~bos/%{name}/%{name}-%{version}.tar.bz2
 Patch0: netplug-1.2.9-execshield.patch.bz2
 Patch1: netplug-1.2.9-bitkeeper.patch.bz2
