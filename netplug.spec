@@ -18,6 +18,7 @@ Requires(post): rpm-helper
 Requires(preun): rpm-helper
 Conflicts: net-tools < 1.60-18mdk
 
+BuildRequires:	make
 %description
 The netplug daemon listens for carrier detection and loss messages
 from the kernel's netlink subsystem.  When a carrier signal is
