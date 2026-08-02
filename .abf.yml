@@ -1,2 +1,5 @@
 sources:
-  netplug-1.2.9.tar.bz2: bf33f5d01c304306b82ffa2000bb5b0f6d88e37f
+  netplug-1.2.9.2.tar.bz2: 646041d6d6f988599881b36a722296d6fedcfd99
+  netplug-1.2.9.2-execshield.patch.bz2: b42b5d17a8ccdf4248bf121ae1b281169788d362
+  netplug-1.2.9.2-bitkeeper.patch.bz2: f3e0a37ce564dbebe3e73a8c7a7f0a9ae10e1e72
+  netplug-1.2.9.2-pinit.patch.bz2: 5026659eafa436fa12718b2c39287becc15a0532

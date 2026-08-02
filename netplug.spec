@@ -1,15 +1,15 @@
 %define name netplug
-%define version 1.2.9
+%define version 1.2.9.2
 %define release 8
 
 Summary: Hotplug-style support for network cables
 Name: %{name}
 Version: %{version}
-Release:	2
+Release:	1
 Source0: http://www.red-bean.com/~bos/%{name}/%{name}-%{version}.tar.bz2
-Patch0: netplug-1.2.9-execshield.patch.bz2
-Patch1: netplug-1.2.9-bitkeeper.patch.bz2
-Patch2: netplug-1.2.9-pinit.patch.bz2
+Patch0: netplug-1.2.9.2-execshield.patch.bz2
+Patch1: netplug-1.2.9.2-bitkeeper.patch.bz2
+Patch2: netplug-1.2.9.2-pinit.patch.bz2
 License: GPL
 Group: System/Configuration/Networking
 Url: https://www.red-bean.com/~bos/
@@ -31,9 +31,9 @@ and is more configurable
 
 %prep
 %setup -q
-%patch0 -p1 -b .execshield
-%patch1 -p1 -b .bitkeeper
-%patch2 -p1 -b .pinit
+%patch -P0 -p1 -b .execshield
+%patch -P1 -p1 -b .bitkeeper
+%patch -P2 -p1 -b .pinit
 
 %build
 %make
